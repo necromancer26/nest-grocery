@@ -1,0 +1,29 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../nest-grocery-mailer"
+		},
+		{
+			"path": "../../../nest-grocery-permission"
+		},
+		{
+			"path": "../../../nest-grocery-task"
+		},
+		{
+			"path": "../../../nest-grocery-token"
+		},
+		{
+			"path": "../../../nest-grocery-api"
+		},
+		{
+			"path": "../../../nest-grocery-auth"
+		},
+		{
+			"path": "../../../nest-grocery-products"
+		}
+	],
+	"settings": {}
+}
