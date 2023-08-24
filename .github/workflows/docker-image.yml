@@ -24,4 +24,5 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: ${{ github.event_name != 'pull_request' }}
-          tags: khalilch06/nest-api-gateway:latest,khalilch06/nest-api-gateway:01
+          tags: khalilch06/nest-grocery:latest,khalilch06/nest-grocery:01
+          
