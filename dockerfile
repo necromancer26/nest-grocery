@@ -15,7 +15,7 @@ COPY --from=dependencies /workspace/node_modules ./node_modules
 COPY . .
 RUN npx prisma generate
 RUN yarn run build
-
+ 
 FROM node:18-alpine AS deploy
 ENV NODE_ENV production
 RUN addgroup --system --gid 1001 nodejs
